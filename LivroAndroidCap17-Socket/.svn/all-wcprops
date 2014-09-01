@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/!svn/ver/10714/Livro/Android/src/LivroAndroidCap17-Socket
+END
+default.properties
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/!svn/ver/10715/Livro/Android/src/LivroAndroidCap17-Socket/default.properties
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/!svn/ver/10715/Livro/Android/src/LivroAndroidCap17-Socket/AndroidManifest.xml
+END
+project.properties
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/!svn/ver/10715/Livro/Android/src/LivroAndroidCap17-Socket/project.properties
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/!svn/ver/10715/Livro/Android/src/LivroAndroidCap17-Socket/.project
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/!svn/ver/10753/Livro/Android/src/LivroAndroidCap17-Socket/.classpath
+END

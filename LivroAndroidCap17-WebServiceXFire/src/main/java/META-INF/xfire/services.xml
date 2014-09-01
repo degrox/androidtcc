@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://xfire.codehaus.org/config/1.0">
+	<service>
+		<name>Calculadora</name>
+		<namespace>http://xfire.codehaus.org/Calculadora</namespace>
+		<serviceClass>br.livro.android.cap17.webservice.Calculadora</serviceClass>
+		<implementationClass>br.livro.android.cap17.webservice.CalculadoraImpl</implementationClass>
+	</service>
+</beans>

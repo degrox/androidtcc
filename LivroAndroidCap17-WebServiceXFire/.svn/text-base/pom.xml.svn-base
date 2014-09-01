@@ -1,0 +1,54 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>br.livro.android</groupId>
+  <artifactId>cap17_xfire</artifactId>
+  <packaging>war</packaging>
+  <name>Demo web XFire</name>
+  <version>0.0.1</version>
+  <description>Demo web XFire</description>
+  <build>
+		<finalName>livro_android_xfire</finalName>
+		<plugins>
+			<!-- Compiler -->
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>1.5</source>
+					<target>1.5</target>
+					<encoding>UTF-8</encoding>
+				</configuration>
+			</plugin>
+			<!-- WebApp -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-war-plugin</artifactId>
+			</plugin>
+			<!-- Jetty servlet container: http://jetty.mortbay.com/maven-plugin -->
+			<plugin>
+				<groupId>org.mortbay.jetty</groupId>
+				<artifactId>maven-jetty-plugin</artifactId>
+				<version>6.1.4</version>
+				<configuration>
+					<scanIntervalSeconds>3</scanIntervalSeconds>
+					<contextPath>/livro_android_xfire</contextPath>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+  
+  <dependencies>
+  	<dependency>
+  		<groupId>org.codehaus.xfire</groupId>
+  		<artifactId>xfire-all</artifactId>
+  		<version>1.2.6</version>
+  		<type>jar</type>
+  		<scope>compile</scope>
+  	</dependency>
+  	<dependency>
+  		<groupId>javax.servlet</groupId>
+  		<artifactId>servlet-api</artifactId>
+  		<version>2.5</version>
+  		<scope>provided</scope>
+  	</dependency>
+  </dependencies>
+</project>

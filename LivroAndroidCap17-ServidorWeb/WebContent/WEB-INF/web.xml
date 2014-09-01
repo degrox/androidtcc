@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.4" 
+xmlns="http://java.sun.com/xml/ns/j2ee" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	<display-name>LivroAndroidCap17-ServidorWeb</display-name>
+	<servlet>
+		<servlet-name>CalculadoraServlet</servlet-name>
+		<servlet-class>br.livro.android.cap17.servlets.CalculadoraServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ListaCarrosServlet</servlet-name>
+		<servlet-class>br.livro.android.cap17.servlets.ListaCarrosServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CalculadoraServlet</servlet-name>
+		<url-pattern>/calculadoraServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ListaCarrosServlet</servlet-name>
+		<url-pattern>/listaCarros</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
