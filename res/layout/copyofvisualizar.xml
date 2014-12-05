@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+  <!--  <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="100px"
+        android:orientation="vertical" 
+        
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="true"
+            android:focusableInTouchMode="true"
+            android:gravity="top"
+            android:visibility="visible" >
+
+            <ImageButton
+                android:id="@+id/voltar"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/back" />
+
+            <ImageButton
+                android:id="@+id/avancar"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/front" />
+
+            <ImageButton
+                android:id="@+id/atualizar"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/ref" />
+
+            <EditText
+                android:id="@+id/url"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:text="200.132.38.214:8000" />
+
+            <ImageButton
+                android:id="@+id/ir"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/ir" />
+
+        </LinearLayout>
+    </LinearLayout> -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.35"
+        android:orientation="vertical" 
+        
+        >
+
+        <WebView 
+            android:id="@+id/pagina"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            
+            
+             />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+    
+   

@@ -1,0 +1,150 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.tcc.MainActivity" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="bottom"
+        android:orientation="vertical" >
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="94dp"
+        android:src="@drawable/day" />
+
+    <EditText
+        android:id="@+id/sair"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ranking"
+        android:layout_alignBottom="@+id/ranking"
+        android:layout_alignRight="@+id/manu"
+        android:editable="false"
+        android:ems="2"
+        android:padding="0dp"
+        android:paddingBottom="0dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="0dp"
+        android:text="sair"
+        android:textSize="10dp" />
+
+    <EditText
+        android:id="@+id/allNews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imgAll"
+        android:layout_alignTop="@+id/quemSomos"
+        android:editable="false"
+        android:ems="5"
+        android:padding="0dp"
+        android:paddingBottom="0dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="0dp"
+        android:text="Notícias"
+        android:textSize="10dp" />
+
+    <EditText
+        android:id="@+id/admin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/barbara"
+        android:layout_alignTop="@+id/allNews"
+        android:layout_toLeftOf="@+id/allNews"
+        android:editable="false"
+        android:ems="2"
+        android:padding="0dp"
+        android:paddingBottom="0dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="0dp"
+        android:text="Admin"
+        android:textSize="10dp" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/quemSomos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ranking"
+        android:layout_alignBottom="@+id/ranking"
+        android:layout_toRightOf="@+id/allNews"
+        android:editable="false"
+        android:ems="4"
+        android:padding="0dp"
+        android:paddingBottom="0dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="0dp"
+        android:text="Quem Somos"
+        android:textSize="10dp" />
+
+    <EditText
+        android:id="@+id/ranking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/quemSomos"
+        android:editable="false"
+        android:ems="3"
+        android:padding="0dp"
+        android:paddingBottom="0dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="0dp"
+        android:text="ranking"
+        android:textSize="10dp" />
+
+    <ImageView
+        android:id="@+id/barbara"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/barbaratransp" />
+
+    <ImageView
+        android:id="@+id/briana"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/bri" />
+
+    <ImageView
+        android:id="@+id/manu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/briana"
+        android:layout_marginTop="64dp"
+        android:src="@drawable/manutransp" />
+
+    <ImageView
+        android:id="@+id/kel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/manu"
+        android:src="@drawable/kel" />
+
+</RelativeLayout>
